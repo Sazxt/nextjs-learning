@@ -31,3 +31,27 @@ body {
     text-wrap: balance;
   }
 }
+
+.readmore_text {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #303e67;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: .8125rem;
+  border-radius: .25rem;
+  color: #1761fd;
+  border-color: #1761fd;
+}
+.readmore_text:hover {
+  color: #ffff;
+  background-color: #1761fd;
+  border-color: #1761fd;
+}
