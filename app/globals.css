@@ -55,3 +55,14 @@ body {
   background-color: #1761fd;
   border-color: #1761fd;
 }
+
+.bg-kominfo {
+  background-color: #1b0729;
+  background-image: url(https://pelaporan.kominfo.go.id/frontend/assets/media/svg/shapes/bg-4.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bg-blue-gray-50 {
+  background-color: rgb(236 239 241/var(--tw-bg-opacity));
+}

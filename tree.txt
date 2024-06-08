@@ -1,0 +1,31 @@
+.
+├── README.md
+├── app
+│   ├── api
+│   ├── components
+│   ├── dashboard
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.js
+│   ├── page.js
+│   ├── providers.js
+│   ├── redux-counter
+│   ├── resouce
+│   ├── store
+│   ├── team
+│   ├── testpage
+│   └── utils
+├── jsconfig.json
+├── next.config.mjs
+├── node_modules
+│   ..........
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── public
+│   ├── next.svg
+│   └── vercel.svg
+├── tailwind.config.js
+└── tree.txt
+
+356 directories, 15 files

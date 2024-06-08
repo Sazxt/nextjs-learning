@@ -6,8 +6,10 @@ import { useEffect } from "react";
 import CardTest from "../card";
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import { useSelector, useDispatch } from 'react-redux';
 export default function Homepage() {
     const [ref, inView] = useInView();
+    const count = useSelector((state) => state.counter.value);
     const initialData = Array.from({ length: 28 }, (_, index) => ({
         nama: `User ${index + 1}`,
         umur: Math.floor(Math.random() * 50) + 20 // Umur acak antara 20 dan 70
@@ -42,7 +44,7 @@ export default function Homepage() {
                 <div className="bg-white rounded-lg shadow-lg my-8">
                     <Image src="https://images8.alphacoders.com/136/1363709.png" alt="" className="rounded-t-lg w-full h-40 object-cover" width={800} height={200} />
                     <div className="p-6">
-                        <h2 className="font-bold mb-2 text-2xl text-black-50">Card with an image</h2>
+                        <h2 className="font-bold mb-2 text-2xl text-black-50">Card with an image Count IS {count}</h2>
                         <p className="mb-2">This is a little bit better of a card!</p>
                         <a href="javascript:;" onClick={toggleModal} className="text-sm readmore_text">Read More 👉</a>
                     </div>

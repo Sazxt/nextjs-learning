@@ -40,10 +40,10 @@ export default function Navbar()
                             <div className="flex space-x-4">
                                 <Link href="/" className={pathname == "/" ? "bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" : "text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"} {...(pathname == "/" ? { "aria-current": "page" } : {})}>Dashboard</Link>
                                 <Link href="/team" className={pathname == "/team" ? "bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" : "text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"} {...(pathname == "/team" ? { "aria-current": "page" } : {})} >Team</Link>
-                                <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Project 1</a>
-                                <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">project 2</a>
+                                <Link href="/redux-counter" className={pathname == "/redux-counter" ? "bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" : "text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"} {...(pathname == "/redux-counter" ? { "aria-current": "page" } : {})} >Redux Counter</Link>
                                 <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">project 3</a>
                                 <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">project 4</a>
+                                <Link href="/login" className={pathname == "/login" ? "bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" : "text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"} {...(pathname == "/login" ? { "aria-current": "page" } : {})} >Masuk</Link>
                             </div>
                         </div>
                     </div>
