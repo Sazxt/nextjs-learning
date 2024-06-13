@@ -2,7 +2,8 @@
 import React, { useEffect, useState } from 'react';
 import { ethers } from 'ethers';
 import { Web3Provider } from '@ethersproject/providers';
-import { abi } from '@/app/contract/artifacts/contracts/SimpleContract.sol/SimpleContract.json';
+import contractArtifact  from '@/app/contract/artifacts/contracts/SimpleContract.sol/SimpleContract.json';
+const { abi } = contractArtifact;
 
 const contract_address = "0xc6e7DF5E7b4f2A278906862b61205850344D4e7d"
 
